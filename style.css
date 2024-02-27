@@ -1,0 +1,45 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+body{
+	background-color:rgba(248, 249, 250, 1);
+}
+
+
+menu,
+ul,ol {
+	list-style: none;
+}
+
+
+/* side-bar */
+.side-bar{
+	background-color: rgba(8, 20, 31, 1);
+	color: white;
+	min-width: 65px;
+}
+@media (min-width:1200px) {
+	.side-bar {
+		width: 150px;
+	}
+}
+
+.app-toolbar {
+	height: 70px;
+}
+
+
