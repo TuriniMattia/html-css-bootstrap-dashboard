@@ -10,29 +10,35 @@ img {
 	max-width: 100%;
 }
 
+#app {
+	background-color: rgba(248, 249, 250, 1);
+}
 a {
 	text-decoration: none;
 	color: currentColor;
 }
 
-body{
-	background-color:rgba(248, 249, 250, 1);
+li > a {
+	text-decoration: none;
+	color: currentColor;
 }
 
 
-menu,
-ul,ol {
-	list-style: none;
+
+ul, ol, li {
+    list-style: none;
 }
 
 
 /* side-bar */
 .side-bar{
 	background-color: rgba(8, 20, 31, 1);
+	background-image: url(img/sidebar-bg.png);
 	color: white;
-	min-width: 65px;
+	min-width: 50px;
+	padding: 20px;
 }
-@media (min-width:1200px) {
+@media (min-width:992px) {
 	.side-bar {
 		width: 150px;
 	}
@@ -41,5 +47,52 @@ ul,ol {
 .app-toolbar {
 	height: 70px;
 }
+
+
+.logo-mobile {
+	width: 50px;
+}
+
+/* hero */
+.hero{
+	background-color: rgba(27, 114, 232, 1);
+
+}
+
+
+
+
+
+/* card-section */
+.card-section {
+
+}
+
+.green-bt {
+	color: white;
+	border-radius: 75px;
+	padding: 3px;
+	background-color: green;
+	font-size: 10px;
+}
+
+.table-button {
+	padding: 3px;
+	width: 30px;
+	
+}
+.line {
+	border-bottom: 1px solid grey  ;
+	
+	
+	
+}
+.tbl-title {
+	background-color: rgba(248, 249, 250, 1);
+	padding: 20px;
+	
+}
+
+
 
 
